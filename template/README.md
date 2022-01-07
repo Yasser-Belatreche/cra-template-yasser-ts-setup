@@ -10,7 +10,7 @@ first make sure to install the dev dependences needed for the project by running
 npm install -D @storybook/addon-actions @storybook/addon-essentials @storybook/addon-links @storybook/builder-webpack5 @storybook/manager-webpack5 @storybook/node-logger @storybook/preset-create-react-app @storybook/react @types/styled-components autoprefixer postcss tailwindcss webpack
 ```
 
-And Also add the following scripts to you package.json file:
+And Also add the following scripts to your package.json file:
 
 ```
 {
