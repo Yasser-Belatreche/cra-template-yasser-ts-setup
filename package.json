@@ -1,74 +1,26 @@
 {
-  "name": "react-typescript-project-setup",
-  "description": "A ready-to-use structured ReactJS project initialized with \"Typescript, scss, storybook, tailwindcss and jest\" to skip the tedious task of installing every dependency needed and dive directly into the fun part, coding ",
+  "name": "cra-template-yasser-ts-setup",
   "version": "1.0.0",
-  "author": "Yasser Belatreche",
-  "private": false,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.4.0",
-    "@types/node": "^16.11.18",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
-    "node-sass": "^7.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^6.2.1",
-    "react-scripts": "5.0.0",
-    "sass": "^1.46.0",
-    "typescript": "^4.5.4",
-    "web-vitals": "^2.1.2"
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "description": "A ready-to-use structured ReactJS project initialized with \"Typescript, scss, storybook, tailwindcss, styled-components and jest\" to skip the tedious task of installing every dependency needed and dive directly into the fun part, coding.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yasser-Belatreche/cra-template-yasser-ts-setup.git",
+    "directory": "/"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ],
-    "overrides": [
-      {
-        "files": [
-          "**/*.stories.*"
-        ],
-        "rules": {
-          "import/no-anonymous-default-export": "off"
-        }
-      }
-    ]
+  "bugs": {
+    "url": "https://github.com/Yasser-Belatreche/cra-template-yasser-ts-setup.git/issues"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@storybook/addon-actions": "^6.4.9",
-    "@storybook/addon-essentials": "^6.4.9",
-    "@storybook/addon-links": "^6.4.9",
-    "@storybook/builder-webpack5": "^6.4.9",
-    "@storybook/manager-webpack5": "^6.4.9",
-    "@storybook/node-logger": "^6.4.9",
-    "@storybook/preset-create-react-app": "^4.0.0",
-    "@storybook/react": "^6.4.9",
-    "autoprefixer": "^10.4.1",
-    "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.11",
-    "webpack": "^5.65.0"
-  }
+  "files": [
+    "template",
+    "template.json"
+  ]
 }
