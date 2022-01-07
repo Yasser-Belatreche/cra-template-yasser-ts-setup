@@ -5,7 +5,7 @@ This is an official Typscript template for [Create React App](https://github.com
 To use It you need to specify the template name when creating a react app using CRA like that :
 
 ```
-npx create-react-app --template yasser-ts-setup
+npx create-react-app myapp --template yasser-ts-setup
 ```
 
 For more information about CRA, please refer to:
