@@ -1,7 +1,6 @@
 # Getting Started with This React Setup Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and edited by [me](https://www.linkedin.com/in/yasser-belatreche-6b450620a/), I add different libraries that I use in every React project, like `Typescript`, `scss modules`, `storybook`, `styled-components` and `tailwindcss`. And I structure the files.\
-You can clone it and start coding immediately.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and edited by [me](https://www.linkedin.com/in/yasser-belatreche-6b450620a/), I add different libraries that I use in every React project, like `Typescript`, `scss modules`, `storybook`, `styled-components` and `tailwindcss`. And I structure the files.
 
 ## Before Runnig the App
 
