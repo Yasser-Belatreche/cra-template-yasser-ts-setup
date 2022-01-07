@@ -5,7 +5,7 @@ You can clone it and start coding immediately.
 
 ## Before Runnig the App
 
-first make sure to install the dev dependences needed in the project by running this command :
+first make sure to install the dev dependences needed for the project by running this command :
 
 ```
 npm install -D @storybook/addon-actions @storybook/addon-essentials @storybook/addon-links @storybook/builder-webpack5 @storybook/manager-webpack5 @storybook/node-logger @storybook/preset-create-react-app @storybook/react @types/styled-components autoprefixer postcss tailwindcss webpack
