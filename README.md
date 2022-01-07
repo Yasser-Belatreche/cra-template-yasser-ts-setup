@@ -8,6 +8,28 @@ To use It you need to specify the template name when creating a react app using 
 npx create-react-app myapp --template yasser-ts-setup
 ```
 
+After the installation complete don't forget to install the dev dependences by running this command:
+
+```
+npm install -D @storybook/addon-actions @storybook/addon-essentials @storybook/addon-links @storybook/builder-webpack5 @storybook/manager-webpack5 @storybook/node-logger @storybook/preset-create-react-app @storybook/react @types/styled-components autoprefixer postcss tailwindcss webpack
+```
+
+And Also add the following scripts to you package.json file:
+
+```
+{
+  ...
+
+  "scripts": {
+    ...
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+
+  ...
+}
+```
+
 For more information about CRA, please refer to:
 
 - [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.

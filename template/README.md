@@ -10,6 +10,22 @@ first make sure to install the dev dependences needed for the project by running
 npm install -D @storybook/addon-actions @storybook/addon-essentials @storybook/addon-links @storybook/builder-webpack5 @storybook/manager-webpack5 @storybook/node-logger @storybook/preset-create-react-app @storybook/react @types/styled-components autoprefixer postcss tailwindcss webpack
 ```
 
+And Also add the following scripts to you package.json file:
+
+```
+{
+  ...
+
+  "scripts": {
+    ...
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+
+  ...
+}
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
